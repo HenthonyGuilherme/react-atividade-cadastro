@@ -6,17 +6,17 @@ function Cadastro(){
     function validar(e){
         if(document.getElementById('nome').value == ''){
             e.preventDefault();
-            alert(' Por favor verifique se todos os dados foram preenchidos.');
+            alert(' Por favor, verifique se todos os dados foram preenchidos.');
             document.getElementById('nome').focus();
         }
         else if(document.getElementById('sobrenome').value == ''){
             e.preventDefault();
-            alert(' Por favor verifique se todos os dados foram preenchidos.');
+            alert(' Por favor, verifique se todos os dados foram preenchidos.');
             document.getElementById('sobrenome').focus();
         }
         else if(document.getElementById('Senha').value == ''){
             e.preventDefault();
-            alert(' Por favor verifique se todos os dados foram preenchidos.');
+            alert(' Por favor, verifique se todos os dados foram preenchidos.');
             document.getElementById('Senha').focus();
         }
         else if(document.getElementById('email').value == ''){
@@ -25,7 +25,7 @@ function Cadastro(){
             document.getElementById('email').focus();
         }
         else{
-            alert(' Sua mensagem foi enviada ao Restaurante Start!');
+            alert(' Sua mensagem foi enviada!');
         }
     }
 
