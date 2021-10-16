@@ -1,0 +1,68 @@
+.cadrastro{
+    padding: 10px;
+    margin: 50px 0;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.2) rgba(0,0,0,0.24);
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.cadrastro h3{
+    display: block;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.cadrastro h4{
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+fieldset{
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+.cadrastro input{
+    width: 95%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+.cadrastro input{
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+.cadrastro button{
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background: rgb(125, 5, 136);
+    color: whitesmoke;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cadrastro button:hover{
+    background-color: whitesmoke;
+    border: solid 2px rgb(125, 5, 136);
+    color: rgb(125, 5, 136);
+    transition: background-color 0.3s ease-in-out;
+}
+.cadrastro button:active{
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5);
+}
